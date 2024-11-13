@@ -1,8 +1,23 @@
 
+body{
+    margin-left: 20 px;
 
 
+}
+body a{
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-bottom: 10px;
+    
+
+}   
 
 
+header{
+    border:black 1px solid;
+
+}
 
 #logo{
     font-weight: 600;
@@ -12,8 +27,6 @@
    
 }
     
-
-
 .secondary {
     
     font-size: 1rem;
@@ -26,7 +39,6 @@
     font-size: 18px;
     text-decoration: color black;
     color: #000;
-
     font-weight: 600;
 }
 .secondary:hover{
@@ -36,7 +48,6 @@
 
 
 .primary{
-
     padding: 15px 30px;
     margin-right: 2%;
     margin-left: auto;
@@ -85,23 +96,100 @@
     color:white;
 }
 
+footer{
+    background:lightgrey;
+    border:1px black solid;
 
-
-
+    width: 1500px;
+    
+}
 
 
 .social{
     background-position: 0px 0px;
-    background-image: url(/themes/custom/mfabootstrap5/images/icons_social_media.svg);
+    background-image:url(../img/icons_social_media\ \(1\).svg);
     background-repeat: no-repeat;
-    width: 45px;
+    width: 250px;
     height: 45px;
-    display: block;
+    display:block;
     overflow: hidden;
+    background-size: 208px;
     text-indent: -9999px;
-    background-size: 208px auto;
+    padding:45px 45px;   
+
+}
+
+.social ul li{
+    border:red 1px solid;
+    padding:10px; 
+    display: block;
+    width:max-content;
+    height:15px;
+    margin-bottom: 5px;
 
 }
 
 
+#visit{
+    
+    background-color: lightgrey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    padding-left: 10px;
+    
+
+
+}
+
+#mail{
+  
+    background-color: lightgrey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    padding-left: 15px;
+
+}
+#mail input{
+    height: 35px;
+      width: 200px;
+    
+}
+#enviar input{
+    padding: 5px 15px;
+    background-color: lightgrey;
+   
+    text-decoration:  black;
+    font-size: 15px;    
+    font-family: sans-serif;
+    
+}
+
+
+#connect{
+    
+    background-color: lightgrey;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#d3{
+  
+    background-color: lightgrey;
+    font-weight: bold;
+}
+
+
+
+#d3 ul li{
+    
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: lighter;
+    list-style: none;
+    text-decoration: #000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px
+}
 

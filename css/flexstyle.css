@@ -1,0 +1,83 @@
+
+body{
+   
+    margin: auto;
+    
+    
+
+}
+footer{
+    flex-direction: row;
+    display:flex;
+    align-items: stretch;
+    justify-content:center ;
+
+
+    height: 600px;
+
+}
+footer div{
+
+    display:inline-flex;
+    flex-direction: column;
+    width:900px;
+    height: 500px;
+
+}
+
+#visit{
+    width: 250px;
+    flex-direction: column;
+    display: flex;
+    flex-wrap:nowrap ;
+    align-items: flex-start;
+
+    
+    
+}
+
+#connect{
+
+    width: 300px;
+    flex-direction: column;
+    display: flex;
+    flex-wrap:nowrap ;
+    align-items: first baseline;
+  
+    
+    
+    
+}
+
+#mail{
+
+    width: 320px;
+    flex-direction: column;
+    display: flex;
+    flex-wrap:nowrap ;
+    align-items: first baseline;
+    
+    
+    
+}
+
+#d3{
+
+    width: 300px;
+    flex-direction: column;
+    display: flex;
+    flex-wrap:nowrap ;
+    align-items: first baseline;
+    
+    
+    
+
+}   
+#ticket { text-align: end;}
+
+
+
+
+    
+
+
